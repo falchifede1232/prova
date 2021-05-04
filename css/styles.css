@@ -10,6 +10,25 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /* maps google*/
+ .responsive {
+   width: 100%;
+   height: auto;
+   max-height: 400px;
+ }
+ .logo {
+   width: 100%;
+   height: auto;
+   max-height: 100px;
+   max-width: 200px;
+ }
+ .navbarup{
+   background-color: #343a40;
+ }
+ .center{
+   vertical-align: middle;
+   text-align: center;
+ }
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -66,7 +85,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #4d4d4d;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -164,7 +183,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #0056b3;
+  color: #ff2424;
   text-decoration: underline;
 }
 
